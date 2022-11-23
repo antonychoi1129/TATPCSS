@@ -1,0 +1,29 @@
+main{
+    border: 2px solid green;
+    height: 500px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px dashed purple;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+
+}
+
+.flex-container > div {
+  display: inline-block;
+  color: blue;
+  border: 1px solid red;
+  background-color: pink;
+  padding: 30px;
+  font-size: 30px;
+  margin: 40px;
+  margin-top: 20px;
+}
